@@ -1,7 +1,13 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 #container {
@@ -45,10 +51,12 @@
 
 .content__header {
   text-align: center;
+  font-size: 35px;
+  font-weight: 500;
 }
 
 .content__logo img {
-  width: 100px;
+  width: 68px;
 }
 
 .content__input {
@@ -61,16 +69,42 @@
   padding: 10px;
   border-radius: 10px;
   margin-top: 15px;
+  border: 1px solid #ccc;
 }
 
-.content__password {
+.content__footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
 }
 
 .content__saveMe {
+  display: inline-block;
+}
+
+.content__footer .saveMe__label,
+#saveMe {
+  cursor: pointer;
 }
 
 .content__forgotPass {
+  color: #000000;
 }
 
 .content__login--btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #1572a1;
+  color: #fff;
+  font-size: 15px;
+}
+
+.content__login--btn:hover {
+  background-color: #9ad0ec;
+  color: #000;
+  cursor: pointer;
 }

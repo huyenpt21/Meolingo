@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,800;0,900;1,500&display=swap');
+    </style>
     <base href="assets/">
     <title>Training</title>
 </head>
@@ -19,20 +23,29 @@
             </div>
             <div id="content--right">
                 <div class="content">
-                    <div class="content__logo">
-                        <img src="img/logo.png" alt="Cat logo">
+                    <div class="content__header">
+                        <div class="content__logo">
+                            <img src="img/logo.png" alt="Cat logo">
+                        </div>
+                        <h2 class="content__header">Welcome Back</h2>
                     </div>
-                    <h2 class="content__header">Welcome Back</h2>
-                    <div class="content__input">
-                        <input class="content__email" type="text" placeholder="Your email address">
-                        <input class="content__password" type="text" placeholder="Your password">
-                    </div>
-                    <div class="content__saveMe">
-                        <input type="checkbox" name="saveMe">
-                        <label for="saveMe">Keep me logged in</label>
-                    </div>
-                    <a href="#" class="content__forgotPass">Forgot Password</a>
-                    <button class="content__login--btn">Log in</button>
+
+                    <form action="">
+                        <div class="content__input">
+                            <input class="content__email" type="email" placeholder="Your email address" required>
+                            <input class="content__password" type="password" placeholder="Your password" required>
+                        </div>
+
+                        <div class="content__footer">
+                            <div class="content__saveMe">
+                                <input id="saveMe" type="checkbox">
+                                <label class="saveMe__label" for="saveMe">Keep me logged in</label>
+                            </div>
+                            <a href="#" class="content__forgotPass">Forgot Password</a>
+                        </div>
+
+                        <input type="submit" class="content__login--btn" value="Login">
+                    </form>
                 </div>
             </div>
         </div>
