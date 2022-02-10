@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  width: 800px;
+  height: 800px;
+  padding-top: 150px;
+}
+
+#image--left {
+  width: 50%;
+  height: 100%;
+  /* background-image: url(../img/loginPage.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  display: inline-block;
+}
+
+#image--left img {
+  width: 400px;
+}
+
+#content--right {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.content {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.content__logo {
+  text-align: center;
+}
+
+.content__header {
+  text-align: center;
+}
+
+.content__logo img {
+  width: 100px;
+}
+
+.content__input {
+  margin-top: 20px;
+}
+
+.content__email,
+.content__password {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.content__password {
+}
+
+.content__saveMe {
+}
+
+.content__forgotPass {
+}
+
+.content__login--btn {
+}
