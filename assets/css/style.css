@@ -120,6 +120,8 @@
 
 .content__footer p {
   padding: 0 10px;
+  color: #aaa;
+  font-weight: 600;
 }
 
 .separation {
