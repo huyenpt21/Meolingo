@@ -163,6 +163,7 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 0.6px;
+  transition: all ease 0.3s;
 }
 
 .btn:hover {

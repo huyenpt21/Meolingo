@@ -54,7 +54,7 @@
 
 .header__menu .menu__item:hover img {
   width: 40px;
-  transition: ease 0.2s;
+  transition: linear 0.1s;
 }
 
 .header__menu .menu__item:hover .item--label {
@@ -64,7 +64,7 @@
 
 /* MAIN */
 .container .main {
-  margin: 20px auto 0;
+  margin: 70px auto 0;
   width: 760px;
 }
 
@@ -152,4 +152,5 @@
 
 .footer .footer__item:hover {
   color: rgba(0, 0, 0, 0.7);
+  transition: ease 0.2s;
 }
