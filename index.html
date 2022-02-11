@@ -6,49 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,800;0,900;1,500&display=swap');
-    </style>
+    <link rel="icon" href="../assets/img/logo.png" type="image/icon type">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600&family=Montserrat:ital,wght@0,200;0,300;0,500;0,800;0,900;1,500&display=swap');
+    </style> -->
     <base href="assets/">
-    <title>Training</title>
+    <title>Moelingo</title>
 </head>
 
 <body>
     <div id="container">
-        <div id="main">
-            <div id="image--left">
-                <img src="img/loginPage.png" alt="Login image">
-            </div>
-            <div id="content--right">
-                <div class="content">
-                    <div class="content__header">
-                        <div class="content__logo">
-                            <img src="img/logo.png" alt="Cat logo">
-                        </div>
-                        <h2 class="content__header">Welcome Back</h2>
-                    </div>
-
-                    <form action="">
-                        <div class="content__input">
-                            <input class="content__email" type="email" placeholder="Your email address" required>
-                            <input class="content__password" type="password" placeholder="Your password" required>
-                        </div>
-
-                        <div class="content__footer">
-                            <div class="content__saveMe">
-                                <input id="saveMe" type="checkbox">
-                                <label class="saveMe__label" for="saveMe">Keep me logged in</label>
-                            </div>
-                            <a href="#" class="content__forgotPass">Forgot Password</a>
-                        </div>
-
-                        <input type="submit" class="content__login--btn" value="Login">
-                    </form>
+        <header class="container__header">
+            <!-- <i class="ti-close"></i> -->
+            <img src="https://d35aaqx5ub95lt.cloudfront.net/images/x.svg" alt="">
+            <button class="btn btn--signup">SIGN UP</button>
+        </header>
+        <div class="content">
+            <div class="content__header">
+                <div class="content__logo">
+                    <img src="img/logo.png" alt="Cat logo">
                 </div>
+                <h2 class="content__header">Login</h2>
             </div>
+
+            <form action="../landingPage.html" method="get">
+                <div class="form__input">
+                    <input class="content__email" name="email" required autocomplete="on" type="email"
+                        placeholder="Email or user name">
+                    <input class="content__password" type="password" placeholder="Password" required>
+                </div>
+
+                <div class="form__footer">
+                    <div class="content__saveMe">
+                        <input id="saveMe" type="checkbox">
+                        <label class="saveMe__label" for="saveMe">Keep me logged in</label>
+                    </div>
+                    <a href="#" class="content__forgotPass">Forgot Password</a>
+                </div>
+
+                <input type="submit" class="btn btn--login" value="LOG IN">
+            </form>
+
+            <footer class="content__footer">
+                <div class="footer__separation">
+                    <div class="separation"></div>
+                    <p>OR</p>
+                    <div class="separation"></div>
+                </div>
+                <div class="footer__btn--social">
+                    <button type="button" class="btn btn--facebook">
+                        <i class="ti-facebook footer__icon"></i>
+                        <p>FACEBOOK</p>
+                    </button>
+
+                    <button type="button" class="btn btn--google">
+                        <!-- <i class="ti-google footer__icon"></i> -->
+                        <img src="https://d35aaqx5ub95lt.cloudfront.net/images/google-color.svg" class="footer__icon">
+                        <p>GOOGLE</p>
+                    </button>
+                </div>
+            </footer>
         </div>
+    </div>
     </div>
 </body>
 
