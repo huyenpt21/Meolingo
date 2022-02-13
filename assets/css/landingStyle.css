@@ -39,6 +39,7 @@
   font-size: 15px;
   cursor: pointer;
   min-width: 105px;
+  text-decoration: none;
 }
 
 .header__menu img {
@@ -50,7 +51,6 @@
   font-size: 14px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.3);
-  text-decoration: none;
 }
 
 .header__menu .menu__item:hover > img {
@@ -107,6 +107,9 @@
 
 .sub-menu .sub-menu__item {
   padding: 8px 20px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
 }
 
 .sub-menu .sub-menu__item:hover {
