@@ -1,0 +1,71 @@
+/* Tablet*/
+@media (min-width: 740px) and (max-width: 1200px) {
+  .header__menu .menu--lesson .item--label {
+    display: none;
+  }
+
+  .header__menu .sub-menu {
+    left: auto;
+  }
+
+  .main .main__heading {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 740px) {
+  .container .footer {
+    display: none;
+  }
+
+  .header__menu .menu--lesson .item--label {
+    display: none;
+  }
+
+  .header__menu .sub-menu {
+    left: -198%;
+  }
+
+  .header__menu .sub-menu::before {
+    right: 10%;
+  }
+
+  .header__menu .menu--lesson {
+    position: fixed;
+    bottom: 0;
+    height: 90px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .header__menu .menu--lesson img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header__menu .menu--skill {
+    display: flex;
+    order: 1;
+  }
+
+  .header__menu .extra-menu {
+    order: 2;
+  }
+
+  .container .main {
+    margin: 20px 8px 90px;
+  }
+
+  .container .main__content {
+    border: 0;
+  }
+
+  .main .main__heading {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

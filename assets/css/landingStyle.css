@@ -1,3 +1,4 @@
+/* COMMON */
 * {
   padding: 0;
   margin: 0;
@@ -31,6 +32,14 @@
   align-content: center;
 }
 
+.header .menu--lesson {
+  display: flex;
+}
+
+.header .menu--skill {
+  display: flex;
+}
+
 .header__menu .menu__item {
   margin: 0 15px;
   display: flex;
@@ -38,12 +47,12 @@
   align-items: center;
   font-size: 15px;
   cursor: pointer;
-  min-width: 105px;
   text-decoration: none;
 }
 
 .header__menu img {
   width: 35px;
+  height: 35px;
   margin-right: 5px;
 }
 
@@ -53,10 +62,10 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
-.header__menu .menu__item:hover > img {
+/* .header__menu .menu__item:hover > img {
   width: 40px;
   transition: linear 0.1s;
-}
+} */
 
 .header__menu .extra-menu:hover .sub-menu {
   display: block;
@@ -88,7 +97,7 @@
 .header__menu .sub-menu {
   position: absolute;
   top: 90%;
-  left: -58%;
+  left: -96%;
   width: 240px;
   background-color: #fff;
   border-radius: 10px;
@@ -140,7 +149,7 @@
 /* START MAIN */
 .container .main {
   margin: 70px auto 0;
-  width: 760px;
+  max-width: 760px;
 }
 
 .main .main__heading {
@@ -155,8 +164,9 @@
 }
 
 .main .main__content {
-  width: 100%;
-  margin-bottom: 70px;
+  /* width: 100%; */
+  padding-bottom: 70px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .main__content .content__block {
@@ -183,6 +193,8 @@
 
 /* BLOCK ITEM */
 .main__content .block__item {
+  margin: 40px 26px;
+  text-align: center;
 }
 
 .block__item .content__item {
@@ -191,7 +203,7 @@
   font-weight: 600;
   width: 130px;
   cursor: pointer;
-  margin: 22px 28px;
+  /* margin: 22px 22px; */
 }
 
 .block__item .item--picture {
@@ -210,10 +222,9 @@
 
 /* FOOTER */
 .footer {
-  width: 760px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer .footer__item {

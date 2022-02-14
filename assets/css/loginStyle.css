@@ -34,7 +34,7 @@
 }
 
 .content {
-  padding-top: 100px;
+  padding: 100px 20px 0px;
   width: 375px;
   height: 100%;
   margin: 0 auto;
@@ -139,14 +139,14 @@
 .content__footer .btn--facebook {
   background-color: #fff;
   color: #3c5a99;
-  width: 178px;
+  width: 160px;
   height: 48px;
 }
 
 .content__footer .btn--google {
   background-color: #fff;
   color: #4285f4;
-  width: 178px;
+  width: 160px;
   height: 48px;
 }
 
